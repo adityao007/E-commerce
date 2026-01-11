@@ -1,0 +1,135 @@
+.order-success {
+  padding: 40px 0;
+  min-height: calc(100vh - 80px);
+}
+
+.success-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.success-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);
+}
+
+.success-content h1 {
+  font-size: 32px;
+  color: #1f2937;
+  margin-bottom: 16px;
+}
+
+.success-message {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.order-details {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-row span {
+  color: #6b7280;
+}
+
+.detail-row strong {
+  color: #1f2937;
+}
+
+.status-pending {
+  color: #f59e0b;
+}
+
+.status-processing {
+  color: #3b82f6;
+}
+
+.status-shipped {
+  color: #8b5cf6;
+}
+
+.status-delivered {
+  color: #10b981;
+}
+
+.status-cancelled {
+  color: #ef4444;
+}
+
+.total-amount {
+  color: #667eea;
+  font-size: 20px;
+}
+
+.order-items-summary {
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.order-items-summary h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #1f2937;
+}
+
+.order-item-summary {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e7eb;
+  color: #6b7280;
+}
+
+.order-item-summary:last-child {
+  border-bottom: none;
+}
+
+.success-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .success-content {
+    padding: 40px 24px;
+  }
+
+  .success-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 48px;
+  }
+
+  .success-content h1 {
+    font-size: 24px;
+  }
+}
+
